@@ -1,0 +1,666 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>primera aplicacion movil</title>
+
+<!--grupo CSS-->
+    <link rel="stylesheet" href="css/temaapp3.min.css">
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>
+    <script src="phonegap.js"></script>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/libro1b.jpg','imagenes/libro2b.jpg','imagenes/libro3b.jpg','imagenes/libro4b.jpg','imagenes/libro5b.jpg')">
+  
+   <div data-role="page" id="principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+    <h1> Bibliografia de la especialidad de programación </h1>
+   </div>
+   <div data-role="main" class="ui-content">
+   <center><h3>Libros</h3></center>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/libro1a.jpg" alt="Mantenimiento y reparación de computadoras" title="Mantenimiento y reparación de computadoras" id="wows1_0"/></li>
+		<li><img src="data1/images/libro2a.jpg" alt="Fundamentos de Redes" title="Fundamentos de Redes" id="wows1_1"/></li>
+		<li><img src="data1/images/libro3a.jpg" alt="Sistemas Operativos" title="Sistemas Operativos" id="wows1_2"/></li>
+		<li><img src="data1/images/libro4a.jpg" alt="Visual C# 2010" title="Visual C# 2010" id="wows1_3"/></li>
+		<li><img src="data1/images/libro5a.jpg" alt="Programación avanzada con SQL Server 2005" title="Programación avanzada con SQL Server 2005" id="wows1_4"/></li>
+		<li><img src="data1/images/libro6a.jpg" alt="Redes de Computadoras" title="Redes de Computadoras" id="wows1_5"/></li>
+		<li><img src="data1/images/libro7a.jpg" alt="Java cómo programar" title="Java cómo programar" id="wows1_6"/></li>
+		<li><img src="data1/images/libro8a.jpg" alt="Estructura de Datos" title="Estructura de Datos" id="wows1_7"/></li>
+		<li><img src="data1/images/libro9a.jpg" alt="ASP.NET 4.0" title="ASP.NET 4.0" id="wows1_8"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/libro10a.jpg" alt="wowslider" title="Comunicaciones y Redes de Computadores" id="wows1_9"/></a></li>
+		<li><img src="data1/images/libro11a.jpg" alt="Programación en Java" title="Programación en Java" id="wows1_10"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Mantenimiento y reparación de computadoras"><span><img src="data1/tooltips/libro1a.jpg" alt="Mantenimiento y reparación de computadoras"/>1</span></a>
+		<a href="#" title="Fundamentos de Redes"><span><img src="data1/tooltips/libro2a.jpg" alt="Fundamentos de Redes"/>2</span></a>
+		<a href="#" title="Sistemas Operativos"><span><img src="data1/tooltips/libro3a.jpg" alt="Sistemas Operativos"/>3</span></a>
+		<a href="#" title="Visual C# 2010"><span><img src="data1/tooltips/libro4a.jpg" alt="Visual C# 2010"/>4</span></a>
+		<a href="#" title="Programación avanzada con SQL Server 2005"><span><img src="data1/tooltips/libro5a.jpg" alt="Programación avanzada con SQL Server 2005"/>5</span></a>
+		<a href="#" title="Redes de Computadoras"><span><img src="data1/tooltips/libro6a.jpg" alt="Redes de Computadoras"/>6</span></a>
+		<a href="#" title="Java cómo programar"><span><img src="data1/tooltips/libro7a.jpg" alt="Java cómo programar"/>7</span></a>
+		<a href="#" title="Estructura de Datos"><span><img src="data1/tooltips/libro8a.jpg" alt="Estructura de Datos"/>8</span></a>
+		<a href="#" title="ASP.NET 4.0"><span><img src="data1/tooltips/libro9a.jpg" alt="ASP.NET 4.0"/>9</span></a>
+		<a href="#" title="Comunicaciones y Redes de Computadores"><span><img src="data1/tooltips/libro10a.jpg" alt="Comunicaciones y Redes de Computadores"/>10</span></a>
+		<a href="#" title="Programación en Java"><span><img src="data1/tooltips/libro11a.jpg" alt="Programación en Java"/>11</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">css slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+    <div>
+      <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Mantenimiento y reparación de computadoras  </h2> 
+             <p> Autor: Desconocido </p>
+          </a>
+        </li>     
+       <li class="ui-first-child ui-last-child">
+          <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Fundamentos de Redes  </h2>  
+               <p> Autor: Bruce A. Hallberg </p>
+          </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Sistemas Operativos </h2>  
+               <p> Autores:<br> Jesús Carretero Pérex <br> Félix García Carballeira <br> Pedro De Miguel Anasagasti <br> Fernando Pérez Costoya </p>
+          </a>
+       </li>
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Visual C# 2010 </h2>  
+               <p> Autor: John Sharp </p>
+          </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Programación avanzada con SQL Server 2005 </h2>  
+               <p> Autores: <br>Andrew J. Brust<br>Sthephen Forte<br> </p>
+          </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+          <a href="#pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Redes de Computadoras </h2>  
+               <p> Autores: <br>Andrew J. Brust<br>Sthephen Forte<br> </p>
+          </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+          <a href="#pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Java cómo programar </h2>  
+               <p> Autores: <br>Deitel Harvey M.<br> Deitel Paul J.</p>
+          </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+          <a href="#pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Estructura de Datos </h2>
+             
+               <p> Autores: <br>Osvaldo Cairó<br>Silvia Guardati </p>
+          </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+          <a href="#pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> ASP.NET 4.0 </h2>  
+               <p> Autor: <br>George Shepherd </p>
+          </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+          <a href="#pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Comunicaciones y Redes de Computadores </h2>  
+               <p> Autor: <br>Wiliam Stalings </p>
+          </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+          <a href="#pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Programación en Java </h2>  
+               <p> Autor: <br>C. Thomas Wu </p>
+          </a>
+       </li>
+       </ul>
+    </div>
+    <div  data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+         <img src="imagenes/persona_azul.png" width="46" height="46">
+      </div>
+      <div>
+         <h4> Aplicacion tres </h4>
+         <h4> Joaquin Villa Amelco </h4>
+      </div>
+     </div>
+    </div>
+    <div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> Mantenimiento y reparación de computadoras </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Libro1','','imagenes/libro1b.jpg',1)"><img src="imagenes/libro1a.jpg" width="268" height="383" id="Libro1"></a> 
+           </div>
+           <div data-role="collapsible" data-content-theme="false">
+     <h1> Compra del libro </h1>
+      <div>
+       <p><a href="https://www.maslibros.mx/mantenimiento-y-reparacion-de-computadoras-p-1283" target="_self"><h2>Compra</h2></a></p>
+       </div>
+      </div>
+ 
+     </div>
+     <h2>Temario</h2>
+           <ol >
+    		<li>La computadora
+    		<li>La caja
+    		<li>La fuente de alimentaci&oacute;n
+    		<li>La placa base
+    		<li>Microprocesadores
+    		<li>La memoria RAM
+    		<li>Tarjetas de ampliaci&oacute;n
+    		<li>Dispositivos perif&eacute;ricos
+    		<li>El disco duro
+    		<li>Dispositivos &oacute;pticos
+    		<li>Montaje de una computadora
+    		<li>La BIOS (Basic input-output system)
+    		<li>El sistema operativo Windows
+    		<li>El sistema operativo Linux
+    		<li>Configuraci&oacute;n y uso b&aacute;sico del sistema operativo
+    		<li>Configuraci&oacute;n de los perif&eacute;ricos
+    		<li>Mantenimiento del hardware del PC
+    		<li>Mantenimiento del software del PC
+			</ol>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, JVA </h4>
+		</div>
+     </div>
+         
+ 
+                     
+          
+             
+    <div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> Fundamentos de Redes </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/libro2b.jpg',1)"><img src="imagenes/libro2a.jpg" width="400" height="567" id="Image5"></a> </div>
+           <div data-role="collapsible" data-content-theme="false">
+     <h1> Descarga y compra del libro </h1>
+      <div>
+       <p><a href="http://www.freelibros.org/redes/fundamentos-de-redes-4ta-edicion-bruce-hallberg.html" target="_self"><h2>Descarga</h2></a></p>
+       <p><a href="https://mx.casadellibro.com/libro-fundamentos-de-redes/9789701041246/929908" target="_self"><h2>Compra</h2></a></p>
+       </div>
+      </div>
+ 
+     </div>
+ 
+     <h2>Temario</h2>
+     <h2>Parte I. Fundamentos de la conectividad de redes</h2>
+           <ol>
+    		<li>El negocio de la conectividad
+    		<li>Presentación de las bases
+    		<li>La conectividad de redes
+    		<li>Cableado de las redes
+    		<li>Conectividad de redes domésticas
+    		<li>Comprensión del hardware de las redes
+    		<li>Conexiones entre WAN
+    		<li>Protocolos de conectividad de redes
+    		<li>Servicios de directorio
+    		<li>Conexiones a larga distancia: acceso remoto a redes
+    		<li>Asegurando su red
+    		<li>Restablecimiento de los desastres de la red
+    		<li>Servidores de red: todo lo que quería saber, pero temía preguntar
+    		<li>Compra y administración de computadoras cliente
+			</ol>
+            <h2>Parte II. Conocimiento por medio de la práctica</h2>
+           <ol>
+			<li>Diseño de una red
+    		<li>Instalación y confi guración de Windows 2000 Server
+    		<li>Administración de Windows 2000 Server: los fundamentos
+    		<li>Otros servicios de Windows 2000 Server
+    		<li>Windows Server 2003
+    		<li>Instalación de Windows Server 2003
+    		<li>Confi guración de Windows Server 2003
+    		<li>Instalación de Linux con una confi guración de servidor
+    		<li>Introducción a la administración de los sistemas Linux
+    		<li>Confi guración de un servidor web Linux con Apache
+			</ol>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, JVA </h4>
+           </div>
+             </div>
+          
+          
+  <div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> Sistemas Operativos </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/libro3b.jpg',1)"><img src="imagenes/libro3a.jpg" width="400" height="567" id="Image6"></a> 
+           </div>
+           <div data-role="collapsible" data-content-theme="false">
+     <h1> Compra y descarga del libro </h1>
+      <div>
+       <p><a href="http://highered.mheducation.com/sites/8448156439/information_center_view0/capitulo_de_muestra.html" target="_self"><h2>Capitulo de Muestra</h2></a></p>
+       <p><a href="https://mx.casadellibro.com/libro-sistemas-operativos-2-ed/9788448156435/1138038" target="_self"><h2>Compra</h2></a></p>
+       </div>
+      </div>
+ 
+     </div>
+     <h2>Temario</h2>
+           <ol >
+    		<li>Conceptos arquitectónicos del computador.
+    		<li>Introducción a los sistemas operativos.
+    		<li>Procesos. 
+    		<li>Planificación del procesador.
+    		<li>Gestión de memoria.
+    		<li>Comunicación y sincronización de procesos.
+    		<li>Interbloqueos.
+    		<li>Entrada/Salida.
+    		<li>Gestión de ficheros y directorios
+    		<li>Introducción a los sistemas distribuidos.
+    		<li>Seguridad y protección.
+			</ol>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, JVA </h4>
+           </div>
+             </div>
+          
+          
+  <div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> Visual C# 2010 </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/libro4b.jpg',1)"><img src="imagenes/libro4a.jpg" name="Image7" width="400" height="559" id="Image7"></a> </div>
+           <div data-role="collapsible" data-content-theme="false">
+     <h1> Compra y descarga del libro </h1>
+      <div>
+       <p><a href="https://mx.casadellibro.com/libro-visual-basic-2010-paso-a-paso/9788441528222/1804202" target="_self"><h2>Compra</h2></a></p>
+       <p><a href="https://es.scribd.com/document/327260407/Visual-C-2010-Paso-A-Paso-en-Espanol-Microsoft-Nacho-Cabanes-pdf" target="_self"><h2>Descarga</h2></a></p>
+       </div>
+      </div>
+ 
+     </div>
+     <h2>Temario</h2>
+      Parte I. El entorno de desarrollo de Visual Basic 2010  
+           <ol >
+    		<li>Saltar con los dos pies: un recorrido por la programación con Visual Basic 2010
+    		<li>Iniciar Visual Basic 2010
+    		<li>Crear un nuevo proyecto
+    		<li>Conocer el entorno de desarrollo de Visual Studio 2010
+    		<li>Cambiar las características de los objetos
+    		<li>Dar nombre a los objetos
+    		<li>Configurar la propiedad Text de un formulario
+    		<li>Guardar un proyecto
+    		<li>Dar un icono al formulario
+    		<li>Añadir controles a un formulario
+    		<li>Diseñar una interfaz
+    		<li>Añadir un control visible a un formulario
+    		<li>Añadir un control invisible a un formulario
+    		<li>Escribir el código que hay detrás de la interfaz
+    		<li>Permitir que el usuario busque un archivo
+    		<li>Terminar un programa utilizando código
+    		<li>Ejecutar un proyecto
+            </ol>
+        Parte II. 
+        <ol>     
+    		<li>Navegar por Visual Basic 2010
+            <li>Utilizar la página de inicio de Visual Basic 2010
+            <li>Crear nuevos proyectos
+            <li>Abrir un proyecto existente
+            <li>Navegar y personalizar el entorno de Visual Basic
+            <li>Trabajar con ventanas de diseño
+            <li>Mostrar y ocultar ventanas de diseño
+            <li>Flotar ventanas de diseño
+            <li>Anclar ventanas de diseño
+            <li>Ocultar automáticamente ventanas de diseño
+            <li>Trabajar con barras de herramientas
+			</ol>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, JVA </h4>
+           </div>
+           </div>
+          
+          
+   <div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> Programación avanzada con SQL Server 2005 </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/libro5b.jpg',1)"><img src="imagenes/libro5a.jpg" width="400" height="567" id="Image12"></a> 				</div>
+           <div data-role="collapsible" data-content-theme="false">
+     <h1> Compra del libro </h1>
+      <div>
+       <p><a href="https://mx.casadellibro.com/libro-programacion-avanzada-con-sql-server-2005/9789701058930/1157586" target="_self"><h2>Compra</h2></a></p>
+       </div>
+      </div>
+ 
+     </div>
+     <h2>Temario</h2>
+           <ol >
+           <li>SQL servidor
+    		<li>Cliente/Servidor (Computación)
+    		<li>Bases de datos relacionales
+    		<li>Microsoft SQL Server 2005 (Programa de ordenador)
+			</ol>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, JVA </h4>
+           </div>
+         </div>
+         
+         <div data-role="page" id="pagina6" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> Redes de Computadoras </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Libro2','','imagenes/libro6b.jpg',1)"><img src="imagenes/libro6a.jpg" width="400" height="567" id="Libro2"></a> 
+           </div>
+           <div data-role="collapsible" data-content-theme="false">
+     <h1> Compra y vista del libro </h1>
+      <div>
+       <p><a href="https://mx.casadellibro.com/libro-redes-de-computadoras-4-ed/9789702601623/918118" target="_self"><h2>Compra</h2></a></p>
+        <p><a href="https://books.google.com.mx/books/about/Redes_de_computadoras.html?id=WWD-4oF9hjEC&printsec=frontcover&source=kp_read_button&redir_esc=y&hl=es#v=onepage&q&f=false" target="_self"><h2>Vista Previa</h2></a></p>
+       </div>
+      </div>
+ 
+     </div>
+     <h2>Temario</h2>
+           <ol >
+    		<li>La capa fisica
+    		<li>La capa de enlace de datos
+    		<li>La subcapa de control de acceso al medio
+    		<li>La capa de Red
+    		<li>La capa de Transporte
+    		<li>La capa de Aplicación
+    		<li>Seguridad en redes
+			</ol>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, JVA </h4>
+		</div>
+     </div>
+       
+       <div data-role="page" id="pagina7" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> Java cómo programar </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Libro3','','imagenes/libro7b.jpg',1)"><img src="imagenes/libro7a.jpg" width="400" height="567" id="Libro3"></a> 
+           </div>
+           <div data-role="collapsible" data-content-theme="false">
+     <h1> Compra del libro </h1>
+      <div>
+       <p><a href="https://www.maslibros.mx/mantenimiento-y-reparacion-de-computadoras-p-1283" target="_self"><h2>Compra</h2></a></p>
+       </div>
+      </div>
+ 
+     </div>
+     <h2>Temario</h2>
+           <ol >
+    		<li>Introducción a la Computadoras y los Lenguajes de Programación 
+			<li>Introducción a la Programación Orientad a objetos y el Desarrollo de Software
+			<li>Fundamentos de la Programación con Java 
+			<li>Datos Numéricos  
+			<li>Definición de la Clases Instanciables 
+			<li>Procesamiento de Entrada con Applets 
+			<li>Programa de ejemplo: calculo del índice de masa corporal (IMC) 
+			<li>Sentencias de Repetición 
+			<li>Caracteres y Strings 
+			<li>Vectores y Matrices 
+			<li>Ordenación y Búsqueda 
+			<li>Entrad y Salida con Archivos 
+			<li>Paquetes y Clases Reusables 
+			<li>GUI y programación guiada por eventos 
+			<li>Herencia y Polimorfismo 
+			<li>Programa de mantenimiento de lista de notas 
+			<li>Algoritmos recursivos </li>
+			</ol>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, JVA </h4>
+		</div>
+     </div>
+                  
+         <div data-role="page" id="pagina8" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> Estructura de Datos </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Libro4','','imagenes/libro8b.jpg',1)"><img src="imagenes/libro8a.jpg" width="400" height="567" id="Libro4"></a> 
+           </div>
+           <div data-role="collapsible" data-content-theme="false">
+     <h1> Compra y vista del libro </h1>
+      <div>
+       <p><a href="https://mx.casadellibro.com/libro-estructura-de-datos/9789701059081/1099527" target="_self"><h2>Compra</h2></a></p>
+       <p><a href="https://es.scribd.com/doc/81314601/Estructuras-de-Datos-Tercera-Edicion-Osvaldo-Cairo-y-Silvia-Guardati" target="_self"><h2>Vista y descarga</h2></a></p>
+       </div>
+      </div>
+ 
+     </div>
+     <h2>Temario</h2>
+           <ol >
+    		<li>Estructuras Fundamentales de datos
+    		<li>Arreglos Multidimensionales representados en arreglos unidimensionales
+    		<li>Pilas y Colas
+    		<li>Recursión
+    		<li>Listas
+    		<li>Árboles
+    		<li>Graficas
+    		<li>Metodos de Ordenación
+    		<li>Metodos de Busqueda
+			</ol>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, JVA </h4>
+		</div>
+     </div>
+     
+     <div data-role="page" id="pagina9" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> ASP.NET 4.0 </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Libro5','','imagenes/libro9b.jpg',1)"><img src="imagenes/libro9a.jpg" width="400" height="567" id="Libro5"></a> 
+           </div>
+           <div data-role="collapsible" data-content-theme="false">
+     <h1> Compra y descarga del libro </h1>
+      <div>
+       <p><a href="https://mx.casadellibro.com/libro-aspnet-40/9788441528123/1798954" target="_self"><h2>Compra</h2></a></p>
+       <p><a href="http://helpermf.weebly.com/blog/free-download-asp-net-40-paso-a-paso-george-shepherd-pdf-programs" target="_self"><h2>Descarga</h2></a></p>
+       </div>
+      </div>
+ 
+     </div>
+     <h2>Temario</h2>
+     Part I Fundamentals
+     <ol>
+<li>Web Application Basics 
+<li>ASP.NET Application Fundamentals
+<li>The Page Rendering Model 
+<li>Custom Rendered Controls 
+<li>Composite Controls
+<li>Control Potpourri 
+</ol>
+Part II Advanced Features
+<ol>
+<li>A Consistent Look and Feel 
+<li>Configuration 
+<li>Logging In 
+<li>Data Binding
+<li>Web Site Navigation 
+<li>Personalization 
+<li>Web Parts 
+</ol>
+Part III Caching and State Management
+<ol>
+<li>Session State 
+<li>Application Data Caching
+<li>Caching Output 
+<li>Part IV Diagnostics and Plumbing
+<li>Diagnostics and Debugging 
+<li>The HttpApplication Class and HTTP Modules 
+<li>HTTP Handlers 
+</ol>
+Part V Dynamic Data, XBAP, MVC, AJAX, and Silverlight
+<ol>
+<li>Dynamic Data
+<li>ASP.NET and WPF Content
+<li>The ASP.NET MVC Framework 
+<li>AJAX
+<li>Silverlight and ASP.NET 
+</ol>
+Part VI Services and Deployment
+<ol>
+<li>Windows Communication Foundation 
+<li>Deployment
+</ol>
+
+     
+     <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, JVA </h4>
+		</div>
+     </div>  
+     
+     <div data-role="page" id="pagina10" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> Comunicaciones y Redes de Computadores </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Libro6','','imagenes/libro10b.jpg',1)"><img src="imagenes/libro10a.jpg" width="400" height="567" id="Libro6"></a>
+           </div>
+           <div data-role="collapsible" data-content-theme="false">
+     <h1> Compra y descarga del libro </h1>
+      <div>
+       <p><a href="https://mx.casadellibro.com/libro-comunicaciones-y-redes-de-computadores-7-ed/9788420541105/967475" target="_self"><h2>Compra</h2></a></p>
+       <p><a href="http://www.academia.edu/5011511/Comunicaciones_y_Redes_de_Computadores_7ma_Edici%C3%B3n_-_William_Stallings" target="_self"><h2>Descarga</h2></a></p>
+       </div>
+      </div>
+ 
+     </div>
+     <h2>Temario</h2>
+     PARTE I: Descripción general
+     <ol>
+<li>Introducción a las comunicaciones de datos y redes
+<li>Arquitectura de protocolos
+</ol>
+PARTE II: Comunicaciones de datos
+<ol>
+<li>Transmisión de datos
+<li>Medios de transmisión
+<li>Técnicas para la codificación de señales
+<li>Técnicas de comunicación de datos digitales
+<li>Protocolos de control del enlace de datos
+<li>Multiplexación
+<li>Espectro expandido
+</ol>
+PARTE III: Redes de área amplia
+<ol>
+<li>Conmutación de circuitos y de paquetes
+<li>Modo de transferencia asíncrono
+<li>Encaminamiento en redes conmutadas
+<li>Congestión en redes de datos
+<li>Redes celulares inalámbricas
+</ol>
+PARTE IV: Redes de área local
+<ol>
+<li>Visión general de las redes de área local
+<li>Redes LAN de alta velocidad
+<li>Redes LAN inalámbricas
+</ol>
+PARTE V: Protocolos de interconexión
+<ol>
+<li>Protocolos de interconexión de redes
+<li>Funcionamiento de la interconexión de redes
+<li>Protocolos de transporte
+			<li>Seguridad en redes
+		<li>Aplicaciones distribuidas
+           </ol>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, JVA </h4>
+		</div>
+     </div>  
+     
+     <div data-role="page" id="pagina11" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> introduccion a la programacion orientada a objetos con java </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Libro7','','imagenes/libro11b.jpg',1)"><img src="imagenes/libro11a.jpg" width="400" height="567" id="Libro7"></a> 
+           </div>
+           <div data-role="collapsible" data-content-theme="false">
+     <h1> Compra y vista del libro </h1>
+      <div>
+       <p><a href="https://mx.casadellibro.com/libro-introduccion-a-la-programacion-orientada-a-objetos-con-java/9788448131944/771061" target="_self"><h2>Compra</h2></a></p>
+       p><a href="http://www.juntos.gob.pe/modulos/mod_legal/archivos/1NTR0DUCC10N%20%204%20L4%209R06R4M4C10N%20C0N%20J4V4.pdf" target="_self"><h2>Vista</h2></a></p>
+       </div>
+      </div>
+ 
+     </div>
+     <h2>Temario</h2>
+           <ol >
+    		<li>La computadora
+    		<li>La caja
+    		<li>La fuente de alimentaci&oacute;n
+    		<li>La placa base
+    		<li>Microprocesadores
+    		<li>La memoria RAM
+    		<li>Tarjetas de ampliaci&oacute;n
+    		<li>Dispositivos perif&eacute;ricos
+    		<li>El disco duro
+    		<li>Dispositivos &oacute;pticos
+    		<li>Montaje de una computadora
+    		<li>La BIOS (Basic input-output system)
+    		<li>El sistema operativo Windows
+    		<li>El sistema operativo Linux
+    		<li>Configuraci&oacute;n y uso b&aacute;sico del sistema operativo
+    		<li>Configuraci&oacute;n de los perif&eacute;ricos
+    		<li>Mantenimiento del hardware del PC
+    		<li>Mantenimiento del software del PC
+			</ol>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, JVA </h4>
+		</div>
+     </div>             
+</body>
+</html>

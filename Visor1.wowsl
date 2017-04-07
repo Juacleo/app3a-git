@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>35</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>Visor1</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>glass_parallax</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/transparent/</ImageTemplate>
+            <ImageTemplateName>Transparent</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>J:/JVA/Aplicaciones/app3/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>J:/JVA/Aplicaciones/app3</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#000000</TemplateColor>
+            <TemplateFont>Anton</TemplateFont>
+            <TemplateName>transparent</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>J:/JVA/Aplicaciones/app3/imagenes/libro1a.jpg</url>
+                <title>Mantenimiento y reparación de computadoras</title>
+                <filesize>41127</filesize>
+            </Image>
+            <Image>
+                <url>J:/JVA/Aplicaciones/app3/imagenes/libro2a.jpg</url>
+                <title>Fundamentos de Redes</title>
+                <filesize>126631</filesize>
+            </Image>
+            <Image>
+                <url>J:/JVA/Aplicaciones/app3/imagenes/libro3a.jpg</url>
+                <title>Sistemas Operativos</title>
+                <filesize>304067</filesize>
+            </Image>
+            <Image>
+                <url>J:/JVA/Aplicaciones/app3/imagenes/libro4a.jpg</url>
+                <title>Visual C# 2010</title>
+                <filesize>330625</filesize>
+            </Image>
+            <Image>
+                <url>J:/JVA/Aplicaciones/app3/imagenes/libro5a.jpg</url>
+                <title>Programación avanzada con SQL Server 2005</title>
+                <filesize>304614</filesize>
+            </Image>
+            <Image>
+                <url>J:/JVA/Aplicaciones/app3/imagenes/libro6a.jpg</url>
+                <title>Redes de Computadoras</title>
+                <filesize>320036</filesize>
+            </Image>
+            <Image>
+                <url>J:/JVA/Aplicaciones/app3/imagenes/libro7a.jpg</url>
+                <title>Java cómo programar</title>
+                <filesize>382846</filesize>
+            </Image>
+            <Image>
+                <url>J:/JVA/Aplicaciones/app3/imagenes/libro8a.jpg</url>
+                <title>Estructura de Datos</title>
+                <filesize>352293</filesize>
+            </Image>
+            <Image>
+                <url>J:/JVA/Aplicaciones/app3/imagenes/libro9a.jpg</url>
+                <title>ASP.NET 4.0</title>
+                <filesize>297099</filesize>
+            </Image>
+            <Image>
+                <url>J:/JVA/Aplicaciones/app3/imagenes/libro10a.jpg</url>
+                <title>Comunicaciones y Redes de Computadores</title>
+                <filesize>310011</filesize>
+            </Image>
+            <Image>
+                <url>J:/JVA/Aplicaciones/app3/imagenes/libro11a.jpg</url>
+                <title>Programación en Java</title>
+                <filesize>372240</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
